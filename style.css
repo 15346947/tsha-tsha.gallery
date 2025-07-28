@@ -1,0 +1,86 @@
+body {
+  font-family: "Noto Serif SC", serif;
+  background: #f8f4ec;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#gallery img {
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+#popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 2px solid #999;
+  padding: 20px;
+  border-radius: 12px;
+  display: none;
+  max-width: 400px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+#popup img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+#inheritor-section {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #fff9ec;
+  border-top: 2px dashed #ccc;
+}
+
+#inheritor-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.inheritor-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  max-width: 800px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.inheritor-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #eee;
+}
+
+.inheritor-info p {
+  text-align: left;
+  margin: 6px 0;
+  line-height: 1.6;
+}

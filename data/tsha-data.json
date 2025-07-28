@@ -1,0 +1,20 @@
+[
+  {
+    "name": "观音菩萨",
+    "image": "images/guanyin.jpg",
+    "meaning": "慈悲、救苦救难",
+    "prayer": "愿你得大悲加持，慈心常在"
+  },
+  {
+    "name": "文殊菩萨",
+    "image": "images/wenshu.jpg",
+    "meaning": "智慧、记忆、辩才",
+    "prayer": "愿你智慧如海，破除迷惑"
+  },
+  {
+    "name": "金刚萨埵",
+    "image": "images/jingangsaduo.jpg",
+    "meaning": "净除业障",
+    "prayer": "愿你业障尽除，福慧增长"
+  }
+]
