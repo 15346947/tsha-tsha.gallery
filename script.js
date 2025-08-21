@@ -3,9 +3,11 @@ let data = [];
 window.onload = async () => {
   const res = await fetch('data/tsha-data.json');
   data = await res.json();
+
   renderGallery();
-  
+
   document.getElementById('drawBtn').onclick = showRandomTsha;
+
   document.getElementById('closeBtn').onclick = () => {
     document.getElementById('popup').style.display = 'none';
   };
